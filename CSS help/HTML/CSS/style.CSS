@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+.text_in_h1 {
+  color: red;
+}
+#text_in_h1 {
+    width: 300px;
+    text-align: justify;
+}
+div p b {
+    color: red;
+}
+div p b, div p i {
+    font-size: 50px;
+}
+/* коментарий в сss
+*/
+.link {
+    
+    text-decoration: line-through;
+}                       /* cвойство упровляет подчеркиванием */
+.link:hover {
+    color: blue;
+    text-decoration: overline;
+    text-decoration-color: red ;
+    cursor: pointer;
+}                 /* псевдо селектр при наведении */
+                  /* 1.свойство для изменения  подчеркивания */  
+                  /* 2.свойство курсора  */    
+.link:visited {
+    color: gray;
+}             /* 2.псевдо класс для посещёной ссылки  */  
+input {
+    color: rgb(157, 0, 255);
+}
+input:focus {
+    color: red;
+}             /* 2.ПК для активного текстового поля  */ 
+
+#text1::after {
+    content: '123';
+
+}                /* Обращение к невидимой части за объектом  */ 
+                 /* ::first-letter ::first-line  */ 
+div#first {
+    background-color: gray;
+    background-image: url(https://sun9-63.userapi.com/impg/Ae_P1egLbTY4Hs9r8KbhwNZep4iid2V3PNomVw/ELkXCcy8ZJE.jpg?size=1280x960&quality=95&sign=6b1b10c2995dde7ed374447f5418a34c&type=album);height: 100vh;   
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body {
+    background-color: pink;
+}                    /* sd background-attachment: fixed; для фиксации картинки что б не крутилось */
+.main_text {
+    color: gray;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: normal ;
+    font-weight: bold;
+    font-family: 'Rubik Doodle Shadow';
+    text-transform: lowercase;
+    word-spacing:10px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-decoration: ;
+    cursor: pointer;
+
+
+}           /* em умножает изначальное значение на n  */ 
+
+#block {
+    background-color: red;
+    height: 200px;
+    width: 70%;
+    background-position: center center;
+    border: 10px dotted silver ;
+    border-radius: 30px;
+    opacity: 0.5;
+    margin: 30px;
+    padding: 30px;
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.block2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: red;
+}
+#one {
+    float: left;
+
+}       /* float свойство позицианирования  */ 
+#two {
+    background-color: blue;
+    float: right;
+}
+a {
+    text-decoration: overline;
+}
